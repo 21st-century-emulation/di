@@ -19,6 +19,7 @@ RUN dart compile exe bin/run.dart -o bin/run
 
 FROM ubuntu:20.04 AS runtime
 
-COPY --from=build /app/bin/run .
+WORKDIR /app
+COPY --from=build /app/bin/run run
 
 ENTRYPOINT ["./run"]
