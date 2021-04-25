@@ -1,0 +1,15 @@
+**/*.exe
+.dart_tool/
+.packages
+build/
+doc/api/
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+analysis_options.yaml
+.dockerignore
+Dockerfile
+.devcontainer/

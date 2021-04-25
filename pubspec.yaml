@@ -1,0 +1,11 @@
+name: di
+version: "1.0.0"
+author: David Tyler <davet.code@gmail.com>
+description: The DI 8080 opcode implemented as a Dart microservice
+homepage: https://blog.davetcode.co.uk
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dev_dependencies:
+  test: '>=1.14.2 <2.0.0'
